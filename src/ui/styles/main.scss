@@ -1,0 +1,15 @@
+//reset & normalize styles
+//common
+@import "./global/variables.scss",
+"./global/mixins.scss",
+"./global/common.scss";
+
+// blocks/common
+@import '../components/common/Input/Input',
+'../components/common/Error/Error',
+'../components/common/Preloader/Preloader';
+
+// pages
+@import "../pages/RecoveryPassword/RecoveryPassword",
+"../pages/Login/Login",
+"../pages/NotFound/NotFound";

@@ -1,0 +1,60 @@
+@import '../../styles/global/variables';
+
+.login {
+  background-image: url('../../assets/images/banner-bg.jpg');
+  animation: 5s show ease;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+
+}
+
+.info {
+  margin-bottom: 7px;
+
+}
+
+.link-registration {
+  color: $color4;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.link-recovery {
+  display: inline-block;
+  float: right;
+  color: $color2;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.password-wrapper {
+  margin-top: 12px;
+  position: relative;
+}
+
+.eye {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 22px;
+  cursor: pointer;
+}
+
+
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
